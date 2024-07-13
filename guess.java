@@ -24,6 +24,7 @@ public class guess {
 
         if (user_input==computer_input) {
             System.out.println("The number is Correct");
+            break;
         }
         else if (user_input>computer_input) {
             System.out.println("Guessing no. is too Big");
