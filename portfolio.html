@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tushar Dhaker | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#social">Social Links</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <img src="WhatsApp Image 2025-02-05 at 11.46.37_a28fef88.jpg" alt="Profile Photo" class="profile-pic" />
+      <div class="hero-text">
+        <h2>Hello, I'm <span>Tushar Dhaker</span></h2>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+  <h2>About Me</h2>
+  <p>
+    <strong>
+      I'm a 3rd-year B.Tech student at JECRC Foundation, Jaipur, specializing in Computer Science and Artificial Intelligence.
+      I have a strong interest in software engineering. 
+      I enjoy building modern web applications,
+      solving real-world problems through code, and constantly learning new technologies.
+      Apart from academics, I actively participate in coding competitions, tech fests, and development projects.
+    </strong>
+  </p>
+</section>
+>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>📚 Smart Library Management System (LMS)</h3>
+      <p>To create a digital platform that automates and simplifies library operations like managing books, issuing/returning books, user management, and tracking transactions.</p>
+      <a href="https://lmsproject-production-4a72.up.railway.app" target="_blank">Visit Live Project</a>
+      <button class="toggle-btn" onclick="toggleFeatures('lms-features')">🔽 Key Features</button>
+      <ul class="features-list" id="lms-features">
+        <li>Role-based login (User, Admin, Super Admin)</li>
+        <li>Book issue/return system with due tracking</li>
+        <li>Admin can manage books and users</li>
+        <li>Feedback and book suggestions feature</li>
+        <li>Built with Java, MySQL, and hosted with Railway</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <h3>📝 Gradeify</h3>
+      <p>Gradeify is a comprehensive result management system designed for educational institutions. It streamlines academic record handling for students, faculty, and the HOD through a role-based dashboard. The platform simplifies mid-term mark submission, result viewing, and institutional communication.</p>
+      <a href="https://github.com/tushardhaker/Gradify" target="_blank">View Project</a>
+      <button class="toggle-btn" onclick="toggleFeatures('gradeify-features')">🔽 Key Features</button>
+      <ul class="features-list" id="gradeify-features">
+        <li>Student & faculty login with different dashboards</li>
+        <li>Mid-term marks upload, filter & view system</li>
+        <li>Broadcast messages and attachments by HOD</li>
+        <li>Automated role-based access control</li>
+        <li>Built using PHP, MySQL, and deployed locally</li>
+      </ul>
+    </div>
+    <div class="project-card">
+  <h3>🎯 Number Guessing Game</h3>
+  <p>
+    A simple yet engaging web-based game where the player tries to guess a randomly generated number within a limited number of attempts. It offers real-time feedback like "Too High" or "Too Low" and includes a restart option. Great for practicing logical thinking and UI interaction.
+  </p>
+  <a href="https://github.com/tushardhaker/CODSOFT/blob/main/guess.java" target="_blank">View Project</a>
+  <button class="toggle-btn" onclick="toggleFeatures('guessinggame-features')">🔽 Key Features</button>
+  <ul class="features-list" id="guessinggame-features">
+    <li>Random number generation between 1–100</li>
+    <li>Interactive feedback on guesses</li>
+    <li>Guess attempt tracking and display</li>
+    <li>Game restart functionality</li>
+    <li>Built using Java Programming</li>
+  </ul>
+</div>
+
+  </section>
+
+ <section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h3>👨‍💻 Programming Languages</h3>
+      <ul>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>C</li>
+        <li>Python</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>🌐 Web Development</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>🗄️ Database</h3>
+      <ul>
+        <li>MySQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>📚 Core CS Concepts</h3>
+      <ul>
+        <li>DSA (Data Structures & Algorithms)</li>
+        <li>OOP'S</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>💬 Soft Skills</h3>
+      <ul>
+        <li>Teamwork</li>
+        <li>Communication</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- RESUME SECTION -->
+<section id="resume">
+  <h2>Resume</h2>
+  <a class="resume-btn" href="https://drive.google.com/file/d/1wIzSLAXG8W0zTGgMCGCV9clb4yH087Na/view?usp=sharing" target="_blank">
+    📄 View Resume (Download)
+  </a>
+</section>
+
+<section id="social">
+  <h2>Social Links</h2>
+  <div class="social-buttons-named">
+    <a class="social-btn" href="#">GitHub</a>
+    <a class="social-btn" href="#">HackerRank</a>
+    <a class="social-btn" href="#">LinkedIn</a>
+    <a class="social-btn" href="#">LeetCode</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:tushardhaker.csai27@jecrc.ac.in">tushardhaker.csai27@jecrc.ac.in</a></p>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleFeatures(id) {
+      const list = document.getElementById(id);
+      list.style.display = (list.style.display === "block") ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
